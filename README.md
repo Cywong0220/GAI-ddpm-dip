@@ -7,9 +7,10 @@ Accelerating DDPM with DIP-based Initial Priors：使用DIP來加速DDPM
 DIP：載入噪音或者損壞的圖像，生成高質量（修復）的圖片\
 DDPM：分爲兩個部分 forward和backward\
       forward的部分將原本的圖像增加noise，最後變成一個gauss分佈的圖像\
-      backward的部分將noise的圖像還原成原本的圖像\
+      backward的部分將noise的圖像還原成原本的圖像
       
 Goal:使用DIP來生成先驗圖片，然後輸入到DDPM中以加速DDPM
+
 
 ## 參考資料
 [ddpm導讀](https://adam-study-note.medium.com/diffusion-model-denoising-diffusion-probabilistic-models-ddpm-%E8%A9%B3%E7%B4%B0%E4%BB%8B%E7%B4%B9-5ce77b6b64d4)\
